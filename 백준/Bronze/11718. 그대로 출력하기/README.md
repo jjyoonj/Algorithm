@@ -27,13 +27,14 @@
  <p>입력받은 그대로 출력한다.</p>
 
 ###  개념
- <p>
+ <p>이 코드가 있는데 실행이 되는지는 잘 모르겠음
+  
     import sys
     s = sys.stdin.readlines()
     for i in s:
         print(i.rstrip())
   
-    이 코드가 있는데 실행이 되는지는 잘 모르겠음
+    
  
     sys.stdin.readline()
     문자열 형태로 개행문자(\n)를 포함한 한 줄만 입력된다.
