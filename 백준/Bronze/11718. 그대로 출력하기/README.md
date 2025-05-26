@@ -32,6 +32,7 @@
     s = sys.stdin.readlines()
     for i in s:
         print(i.rstrip())
+  
     이 코드가 있는데 실행이 되는지는 잘 모르겠음
  
     sys.stdin.readline()
