@@ -27,7 +27,8 @@
  <p>입력받은 그대로 출력한다.</p>
 
 ###  개념
- <p>import sys
+ <p>
+    import sys
     s = sys.stdin.readlines()
     for i in s:
         print(i.rstrip())
