@@ -30,3 +30,22 @@
 
  <p>첫째 줄에 달팽이가 나무 막대를 모두 올라가는데 며칠이 걸리는지 출력한다.</p>
 
+### 개념
+ <p>2-1+2-1+2-1+2 => 올라가는 횟수: 4, 내려가는 횟수: 3, 총 4일</p>
+ <p>5-1+5 => 올라가는 횟수: 2, 내려가는 횟수: 1, 총 2일</p>
+ <p>Ax-B(x-1)=V</p>
+ <p>x = (V-B)/(A-B)</p>
+ <p>시간 초과된 코드</p>
+ '''
+ A,B,V = map(int, input().split())
+ agg = []
+ while sum(agg) < V:
+     agg.append(A)
+     if sum(agg) == V:
+         break
+     agg.append(-B)
+ if len(agg) % 2 == 1:
+     print(len(agg) // 2 + 1)
+ else:
+     print(len(agg) // 2)
+ '''
