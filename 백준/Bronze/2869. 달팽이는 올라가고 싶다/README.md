@@ -36,19 +36,6 @@
  <p>Ax-B(x-1)=V</p>
  <p>x = (V-B)/(A-B)</p>
  <p>시간 초과된 코드</p>
- ```python
- A,B,V = map(int, input().split())
- agg = []
- while sum(agg) < V:
-     agg.append(A)
-     if sum(agg) == V:
-         break
-     agg.append(-B)
- if len(agg) % 2 == 1:
-     print(len(agg) // 2 + 1)
- else:
-     print(len(agg) // 2)
- ```
  <pre>
  <code>
  A,B,V = map(int, input().split())
