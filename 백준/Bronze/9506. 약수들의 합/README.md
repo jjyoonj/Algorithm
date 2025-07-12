@@ -38,3 +38,8 @@
 
 <p>n이 완전수가 아니라면 n is NOT perfect. 를 출력한다.</p>
 
+### 개념
+<p>while문 활용</p>
+<p>break 쓰기</p>
+<p>" + ".join(str(i) for i in a) : 원소 나열할 때마다 + 로 구분</p>
+
