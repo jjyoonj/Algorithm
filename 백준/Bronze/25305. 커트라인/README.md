@@ -32,3 +32,6 @@
 
  <p>상을 받는 커트라인을 출력하라.</p>
 
+### 개념
+ <p>result.sort(reverse=True)</p>
+
