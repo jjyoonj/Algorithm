@@ -32,3 +32,7 @@
 
  <p>첫째 줄에 X'<sub>1</sub>, X'<sub>2</sub>, ..., X'<sub>N</sub>을 공백 한 칸으로 구분해서 출력한다.</p>
 
+### 개념
+ <p>dict(zip(sortedlist, list(range(len(sortedlist)))))</p>
+ <p>: sortedlist의 각 숫자에 0부터 시작하는 순위를 매김</p>
+
