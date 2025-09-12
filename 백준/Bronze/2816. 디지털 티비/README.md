@@ -47,3 +47,23 @@
 
  <p>상근이가 눌러야 하는 버튼을 순서대로 공백없이 출력한다.</p>
 
+### 다른 풀이
+```
+import sys
+input = sys.stdin.readline
+
+n = int(input())
+ch = [input().rstrip() for _ in range(n)]
+
+idx1, idx2 = ch.index('KBS1'), ch.index('KBS2')
+idx2 += 1 if idx2 < idx1 else 0
+
+print('1' * idx1 + '4' * idx1 + '1' * idx2 + '4' * (idx2 - 1))
+```
+<p>예를 들어, MBC, KBS1, KBS2 순으로 있으면</p>
+<p>포인터 ch[1]로 이동-> 1</p>
+<p>ch[1]을 ch[0]으로 이동 -> 4</p>
+<p>포인터 ch[0]에 있음.</p>
+<p>포인터 ch[2]로 이동 -> 1 1</p>
+<p>ch[2]을 ch[1]로 이동 -> 4</p>
+<p>최종적으로 14114 가 된다.</p>
