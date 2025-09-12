@@ -32,3 +32,12 @@
 
  <p>강의실이 수용할 수 있는 최대 인원 수를 출력한다.</p>
 
+### 다른 풀이
+```
+from math import ceil
+h,w,n,m = map(int, input().split())
+a = ceil(h/(n+1))
+b = ceil(w/(m+1))
+print(a*b)
+```
+
