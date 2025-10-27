@@ -80,5 +80,8 @@
 
 <p>2021년 3월 4일, 테스트 케이스가 변경되었습니다. 이로 인해 이전에 통과하던 코드가 더 이상 통과하지 않을 수 있습니다.</p>
 
+<p><strong>개념</strong></p>
+<p>~.startswith(~): 접두어 검색</p>
+
 
 > 출처: 프로그래머스 코딩 테스트 연습, https://school.programmers.co.kr/learn/challenges
